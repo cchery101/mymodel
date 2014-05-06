@@ -12,7 +12,7 @@ contains
 		real(kind=8), dimension(:), intent(in) :: u
 		real(kind=8), dimension(size(u)), intent(out) :: up1
 		real(kind=8), intent(in) :: dx, dt, ubg
-		real(kind=8), dimension(size(u)) :: ux
+		real(kind=8) :: ux
 		integer :: i
 		do i=1,size(u)
 			
